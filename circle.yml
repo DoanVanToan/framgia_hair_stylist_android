@@ -35,7 +35,6 @@ dependencies:
     - /home/ubuntu/.gradle/caches/
     - /home/ubuntu/.gradle/wrapper/
   override:
-    -  chmod +x gradlew
     - ./gradlew app:dependencies
 test:
   override:
